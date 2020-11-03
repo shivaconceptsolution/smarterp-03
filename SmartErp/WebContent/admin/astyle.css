@@ -1,0 +1,57 @@
+*
+{
+	margin:0px;
+}
+
+header,footer
+{
+	background-color:blue;
+	color:white;
+	height:100px;
+}
+
+header ul li
+{
+	display:inline-block;
+	margin-left:20px;
+}
+
+header ul li a
+{
+	color:white;
+	font-size:20px;
+	text-decoration: none;
+}
+
+header ul li a:hover
+{
+	color:red;
+}
+
+#middle
+{
+	height:500px;
+	background-color: cyan;
+}
+
+#middle .part1
+{
+	 float:left;
+	  height:100%;
+	  padding-top:20px;
+	 
+	 
+	  
+	  width:20%;
+	  background-color:orange;
+}
+#middle .part2
+{
+	  float:left;
+	  height:100%;
+	  padding-top:20px;
+	 
+	 
+	  width:80%;
+	  background-color:gray;
+}
